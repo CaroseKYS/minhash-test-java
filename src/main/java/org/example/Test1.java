@@ -16,7 +16,7 @@ public class Test1 {
         List<String> originalLines = new ArrayList<>();
         Calculator calculator = new Calculator();
 
-        try(InputStream is = new FileInputStream("../minhash-python-test/01.data.txt")){
+        try(InputStream is = new FileInputStream("../minhash-test-python/01.data.txt")){
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(is));
             String str;
             while((str = bufferedReader.readLine()) != null) {
